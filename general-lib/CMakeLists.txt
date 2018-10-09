@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.6)
-project(palindrome VERSION 1.0.0 LANGUAGES CXX)
+project(palindrome VERSION 1.0.0 LANGUAGES C)
 
 # Enable testing, but we want to show the output from google test when executing from console, so we
 # add our own target. Execute with for instance `make check`.

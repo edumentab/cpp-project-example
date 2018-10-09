@@ -1,9 +1,15 @@
 #ifndef PALINDROME_H
 #define PALINDROME_H
+#ifdef __cplusplus
+extern "C" {
+#endif
 
-#include <string>
+#include <stdbool.h>
 
-namespace palindrome {
-  bool isPalindrome(const std::string &str) noexcept;
+
+bool isPalindrome(const char *str);
+
+#ifdef __cplusplus
 }
+#endif
 #endif // PALINDROME_H

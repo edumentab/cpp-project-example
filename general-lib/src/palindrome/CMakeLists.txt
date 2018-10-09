@@ -1,3 +1,6 @@
+# Use C++ for running main
+enable_language(CXX)
+
 add_executable(palindrome main.cpp)
 target_link_libraries(palindrome Palindrome::libPalindrome)
 

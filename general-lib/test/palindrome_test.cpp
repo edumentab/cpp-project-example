@@ -2,8 +2,6 @@
 
 #include "palindrome/palindrome.h"
 
-using namespace palindrome;
-
 TEST(Palindrome, isPalindrome_true) {
   EXPECT_TRUE(isPalindrome("ana"));
   EXPECT_TRUE(isPalindrome("anna"));

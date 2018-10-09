@@ -1,3 +1,6 @@
+# Use C++ for tests
+enable_language(CXX)
+
 # Build our unittests executable.
 #
 # Test files are suffixed with "_test" to make sure all file names

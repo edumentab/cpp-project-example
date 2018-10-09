@@ -2,8 +2,6 @@
 
 #include <palindrome/palindrome.h>
 
-using namespace palindrome;
-
 int main(int argc, const char **argp) {
   for (int i = 1; i < argc; i++) {
     if (isPalindrome(argp[i])) {

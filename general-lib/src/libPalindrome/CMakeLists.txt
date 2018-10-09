@@ -1,6 +1,6 @@
 add_library(libPalindrome
   ../include/palindrome/palindrome.h
-  palindrome.cpp
+        palindrome.c
 )
 
 # CMake automatically prefixes our target name with "lib" for libraries, i.e. the built target
@@ -18,8 +18,8 @@ target_include_directories(libPalindrome PUBLIC
 # Add a target in our namespace
 add_library(Palindrome::libPalindrome ALIAS libPalindrome)
 
-# We are using C++11 features (and so will all users of this library)
-target_compile_features(libPalindrome PUBLIC cxx_std_11)
+## We are using C++11 features (and so will all users of this library)
+#target_compile_features(libPalindrome PUBLIC cxx_std_11)
 
 # Install libPalindrome.so target
 install(TARGETS libPalindrome
