@@ -1,6 +1,0 @@
-language: cpp
-
-script:
-  - cmake -E make_directory _debug/general-lib
-  - cmake -E chdir _debug/general-lib cmake -G"Unix Makefiles" ../../general-lib
-  - cmake --build _debug/general-lib --target check
